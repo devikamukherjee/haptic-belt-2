@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 1f476fa1d8682964eb80673e4c7948cc
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - player: {instanceID: 0}
+  - sphere: {instanceID: 0}
+  - gameOverCanvas: {instanceID: 0}
+  - roundOverCanvas: {instanceID: 0}
+  - catchSound: {fileID: 8300000, guid: 133e4c3b7c58df3458bba3959a7d5db9, type: 3}
+  - saveDataScript: {instanceID: 0}
+  - gamemanager: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
