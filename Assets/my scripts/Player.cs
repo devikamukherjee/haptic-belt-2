@@ -93,11 +93,11 @@ public class Player : MonoBehaviour
 
         if (gameManager == null)
         {
-            gameManager = FindObjectOfType<gamemanager>();
+            gameManager = FindFirstObjectByType<gamemanager>();
         }
         if (saveDataScript == null)
         {
-            saveDataScript = FindObjectOfType<SaveData>();
+            saveDataScript = FindFirstObjectByType<SaveData>();
         }
 
         try

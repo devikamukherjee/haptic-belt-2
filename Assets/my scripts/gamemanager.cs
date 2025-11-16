@@ -177,7 +177,7 @@ public void TriggerContinue()
     if (!isReadyToContinue)
     {
         isReadyToContinue = true;
-        Debug.Log("Continue triggered via physical button.");
+        Debug.Log("Continue triggered");
     }
 
     if (lastcanvas != null && lastcanvas.activeInHierarchy)

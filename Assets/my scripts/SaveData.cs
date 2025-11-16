@@ -138,17 +138,17 @@ public class SaveData : MonoBehaviour
         trialData = new TrialData();
 
         if (playerScript == null)
-            playerScript = FindObjectOfType<Player>();
+            playerScript = FindFirstObjectByType<Player>();
 
         if (playerScript != null)
             characterController = playerScript.GetComponent<CharacterController>();
 
         if (sphereTeleporterScript == null)
-            sphereTeleporterScript = FindObjectOfType<sphereandcube>();
+            sphereTeleporterScript = FindFirstObjectByType<sphereandcube>();
         
         // Ensure GameManager reference is available
         if (gameManager == null)
-            gameManager = FindObjectOfType<gamemanager>();
+            gameManager = FindFirstObjectByType<gamemanager>();
     }
     
     private void Start()
